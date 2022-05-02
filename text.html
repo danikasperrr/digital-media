@@ -6,39 +6,60 @@
 <title>my index page</title>
 <style media=screen>
   body {
-    background: #abb89a;
-    color: #524b41;
+    background: rgb(191,130,111);
+background: linear-gradient(0deg, rgba(191,130,111,1) 0%, rgba(253,216,45,1) 100%);
+    color: black;
+  }
+  h1 {
+
+    color: black;
+    text-shadow: 2px 2px 5px grey;
+  }
   }
   .orange {background: #c98018;}
   .green {background: #5b6e42;}
   .brown {background: #52350b;}
+#bob{
+  color: black;
+}
+.baby {
+  color:purple;
+}
+.barbie {
+  font-size: 30px;
+}
+#myHeader {
+  background-color:purple;
+  color: black;
+  padding: 25px;
+  text-align: center;
 
-
+}
 </style>
 </head>
 <!-- I feel like this is the most boring website ever LOL-->
 <body>
 <h1>Extra! Extra! Read All About Me!</h1>
-<p>I am going to tell you about <em>some</em> of my favorite things so keep reading!! I have <strong> A LOT </strong> of preferences. My name is Dani by the way</p>
-<h3>My favorite foods</h3>
-<ul>
+<p class="baby">I am going to tell you about <em>some</em> of my favorite things so keep reading!! I have <strong> A LOT </strong> of preferences. My name is Dani by the way...</p>
+<h3 id="bob">My favorite foods</h3>
+<ul class="baby">
   <li>Pizza</li>
   <li>Sushi</li>
   <li>Spinach Artichoke Dip</li>
   <li>All Kinds of Curry</li>
   <li>Mac and Cheese</li>
-  <li>Green Beanssss</li>
+  <li>Green <span class="barbie">Beans</span></li>
   <li>Most Soups</li>
   <li>Spinach Pie</li>
   </ul>
 <h3>My favorite desserts</h3>
-<ul>
+<ul class="baby">
   <li>Cinnamon Rolls</li>
 <li>Croissants</li>
 <li>Lemon Poppy Seed Muffins</li>
 </ul>
 <h3>My favorite animals </h3>
-<ul>
+<ul class="baby">
   <li>Dogs</li>
 <li>Cats</li>
 <li>Ducks</li>
@@ -49,10 +70,10 @@
 <li>Turtles</li>
 <li><del>Dodo Birds</del></li>
 <li> <ins>Otters</ins> </li>
-<li>I could go on and on... </li>
+<li>I could go on and on...</li>
 </ul>
 <h3>My favorite drinks</h3>
-<ol>
+<ol class="baby">
   <li>H<sub>2</sub>O</li>
   <li>Root Beer</li>
   <li>Coffee</li>
@@ -60,7 +81,7 @@
   <li>Hot Chocolate</li>
 </ol>
 <h3><sup>Fun</sup>Facts</h3>
-<ul>
+<ul class="baby">
   <li>My dad is from Slovakia and I have dual citizenship there</li>
   <li>I have a dog and a cat</li>
   <li>I like to climb trees</li>
@@ -72,7 +93,7 @@
   <li>I talk in random accents all of the time</li>
 </ul>
 <h3>My Favorite Colors</h3>
-<ul>
+<ul class="baby">
   <li><mark class="green">Green</mark></li>
     <li><mark class="orange">Orange</mark></li>
     <li><mark class="brown">Brown</mark></li>
@@ -81,5 +102,7 @@
  </p>
 <p><b>Thank You for Listening!!!!</b> </p>
 <p> <small> I hope you like me</small></p>
+<h2 id="myHeader">The End</h2>
 </body>
 </html>
+<!-- https://lcc-adm.github.io/digital-media/text.html -->
